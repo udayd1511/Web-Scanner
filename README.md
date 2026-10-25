@@ -1,13 +1,85 @@
-# Web Scanner
+# 🌐 &nbsp; Web Scanner Tool &nbsp; 🌐
 
-A Flask-based web interface for authorized web reconnaissance using Subfinder, FFUF, Nmap, and WhatWeb.
+<img src="https://raw.githubusercontent.com/capture0x/web-scanner/main/20.png" width="100%"></img>
 
-## Usage
+#### Developed by [tmrswrr]
+#### Version 1.0.0
+A comprehensive tool for **Web Domain Scanning** including Subdomain Discovery, Directory Enumeration, Network Scanning, and Website Identification.
 
-1. Install the required command-line tools listed in `setup.sh`.
-2. Install Python dependencies: `pip install -r requirements.txt`.
-3. Run `python app.py` and open the local address shown in the terminal.
+## :camera: Screenshots :camera:
 
-**Use only against systems you own or have explicit permission to assess.** Do not expose the Flask development server to the public internet.
+<img src="https://raw.githubusercontent.com/capture0x/web-scanner/main/1.png" width="45%"></img>
+<img src="https://raw.githubusercontent.com/capture0x/web-scanner/main/3.png" width="45%"></img>
 
-This repository retains the upstream project files and attribution where included. Review the included `LICENSE` before redistribution.
+## 👇 💫 How to Use 💫 👇
+
+[![How to use](https://raw.githubusercontent.com/capture0x/web-scanner/main/19.png)](https://youtu.be/Fx6FLDzuZ4c)
+
+## 📒 Read Me 📒
+
+*The Advanced Web Scanner is a versatile Python-based web application that integrates tools like Subfinder, ffuf, Nmap, and WhatWeb for a full-spectrum web domain scan. Designed for both security professionals and enthusiasts, it provides a user-friendly Flask-based interface for easy operation.*
+
+*This tool's capabilities range from discovering subdomains with Subfinder to conducting directory enumeration with ffuf, comprehensive network scanning using Nmap, and identifying website technologies with WhatWeb. Its modular design allows for easy extension and customization, catering to a variety of security assessment needs.*
+
+*It's important to use the Advanced Web Scanner responsibly and legally. This tool is meant for ethical security testing and research, and users should ensure they have permission to scan target domains.*
+
+## :cd: Installation :cd:
+
+### Installation with setup.sh and requirements.txt
+
+```bash
+git clone https://github.com/capture0x/web-scanner
+cd web-scanner
+sudo ./setup.sh
+pip install -r requirements.txt
+```
+
+## ⭐ Usage ⭐
+
+To use the Advanced Web Scanner, follow these steps:
+
+```bash
+python app.py
+```
+
+This command starts the Flask server and runs the web application. Access the web interface through your web browser to begin scanning.
+
+## Features
+
+- **Subdomain Discovery**: Utilizes Subfinder for extensive subdomain searching.
+- **Directory Enumeration**: Uses ffuf with the SecLists `combined_directories.txt` wordlist for directory discovery.
+- **Network Scanning**: Integrates Nmap for detailed network analysis.
+- **Website Identification**: Employs WhatWeb for identifying technologies used by web servers.
+
+## Customization
+
+You can customize the scanning commands and behaviors by editing the `COMMANDS` dictionary in the script. This allows you to tailor the tool to your specific needs.
+
+## Output Processing
+
+The scanner output is processed to ensure readability and user-friendliness. ANSI escape codes and other unnecessary information are removed for clearer results.
+
+## Contributing
+
+Your contributions to improve the Advanced Web Scanner are highly appreciated:
+
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -am 'Add a new feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a new Pull Request.
+
+## Bugs and Enhancements
+
+For bug reports or suggestions for enhancements, please open an [issue](https://github.com/capture0x/web-scanner/issues).
+
+## License
+
+This project is licensed under [specify your license here].
+
+## Disclaimer
+
+The Advanced Web Scanner is intended for educational and ethical use only. Ensure you have authorization before scanning any domains.
+
+**Copyright 2024**
+
