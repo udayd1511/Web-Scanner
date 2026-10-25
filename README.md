@@ -1,8 +1,8 @@
 # 🌐 &nbsp; Web Scanner Tool &nbsp; 🌐
 
-<img src="https://raw.githubusercontent.com/capture0x/web-scanner/main/20.png" width="100%"></img>
+<img src="https://raw.githubusercontent.com/udayd1511/web-scanner/main/20.png" width="100%"></img>
 
-#### Developed by [tmrswrr]
+#### Developed by [Uday]
 #### Version 1.0.0
 A comprehensive tool for **Web Domain Scanning** including Subdomain Discovery, Directory Enumeration, Network Scanning, and Website Identification.
 
@@ -13,7 +13,7 @@ A comprehensive tool for **Web Domain Scanning** including Subdomain Discovery, 
 
 ## 👇 💫 How to Use 💫 👇
 
-[![How to use](https://raw.githubusercontent.com/capture0x/web-scanner/main/19.png)](https://youtu.be/Fx6FLDzuZ4c)
+[![How to use](https://raw.githubusercontent.com/udayd1511/web-scanner/main/19.png)]
 
 ## 📒 Read Me 📒
 
@@ -28,8 +28,9 @@ A comprehensive tool for **Web Domain Scanning** including Subdomain Discovery, 
 ### Installation with setup.sh and requirements.txt
 
 ```bash
-git clone https://github.com/capture0x/web-scanner
+git clone https://github.com/udayd1511/web-scanner
 cd web-scanner
+chmod +x ./setup.sh
 sudo ./setup.sh
 pip install -r requirements.txt
 ```
@@ -71,7 +72,7 @@ Your contributions to improve the Advanced Web Scanner are highly appreciated:
 
 ## Bugs and Enhancements
 
-For bug reports or suggestions for enhancements, please open an [issue](https://github.com/capture0x/web-scanner/issues).
+For bug reports or suggestions for enhancements, please open an [issue](https://github.com/udayd1511/web-scanner/issues).
 
 ## License
 
@@ -81,5 +82,5 @@ This project is licensed under [specify your license here].
 
 The Advanced Web Scanner is intended for educational and ethical use only. Ensure you have authorization before scanning any domains.
 
-**Copyright 2024**
+**Copyright 2026**
 
