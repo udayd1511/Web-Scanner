@@ -6,10 +6,6 @@
 #### Version 1.0.0
 A comprehensive tool for **Web Domain Scanning** including Subdomain Discovery, Directory Enumeration, Network Scanning, and Website Identification.
 
-## :camera: Screenshots :camera:
-
-<img src="https://raw.githubusercontent.com/udayd1511/web-scanner/main/1.png" width="45%"></img>
-<img src="https://raw.githubusercontent.com/udayd1511/web-scanner/main/3.png" width="45%"></img>
 
 ## 👇 💫 How to Use 💫 👇
 
